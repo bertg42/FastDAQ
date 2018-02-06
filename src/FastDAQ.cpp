@@ -7,6 +7,8 @@
 //============================================================================
 
 #include <iostream>
+#include <spcm_linux>
+
 using namespace std;
 
 int main() {
@@ -26,7 +28,15 @@ int main() {
 	// maybe stream data to file?
 	// continuous scan mode?
 
+	//
+	/// Below is secondary.  Get data first!
+	//
 
+	// Once scan is complete begin sorting
+
+	// create symlink to written file, or transfer data via memory?
+	// shared memory: mmap, munmap, semaphore
+	// http://www.cplusplus.com/forum/unices/22104/
 
 	return 0;
 }
